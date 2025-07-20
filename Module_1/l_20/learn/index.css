@@ -1,0 +1,25 @@
+.main-container {
+  display: flex;
+}
+
+.invisible {
+  display: none;
+}
+
+img {
+  border-radius:50%;
+  width: 50px;
+}
+
+#users tr:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#details {
+  background-color: lightcyan;
+}
+
+#details td {
+  padding: 5px;
+}
