@@ -1,5 +1,5 @@
 export function getRandomColor() {
-    const range = "ABCDF12334567890";
+    const range = "ABCDEF1234567890";
     let color = "#";
     for(let i = 0; i < 6; i++) {
         color += range[getRandomNumber(0, range.length - 1)];
