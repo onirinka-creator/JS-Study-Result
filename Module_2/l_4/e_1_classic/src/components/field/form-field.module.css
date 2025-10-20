@@ -1,0 +1,30 @@
+.formField{
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+}
+
+.formFieldTitle{
+	margin-top: 20px;
+	font-family: "BBH Sans Bogle", sans-serif;
+	font-size: 25px;
+
+}
+
+.formFieldInput{
+	font-family: "Roboto", sans-serif;
+	font-size: 21px;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 3px;
+	border: none;
+	padding: 10px;
+
+}
+
+.errorMessages{
+	color: red;
+	margin-top: 15px;
+	line-height: 1.5rem;
+}

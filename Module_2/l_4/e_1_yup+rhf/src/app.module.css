@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.app{
+	width: 500px;
+	text-align: left;
+}
+
+.formTitle{
+	font-family: "BBH Sans Bogle", sans-serif;
+	font-size: 70px;
+}
+.formTitleHighlight{
+
+	color: orange;
+	text-transform: uppercase;
+}
+.formInstruction{
+	font-family: "Roboto", sans-serif;
+	margin: 50px 0px 20px;
+	color: grey;
+}
+
+.formSubmitButton{
+	font-family: "BBH Sans Bogle", sans-serif;
+	margin-top: 20px;
+	font-size: 2rem;
+	height: 60px;
+	width: 100%;
+	transition: 0.2s;
+	background-color: orange;
+	color: white;
+	border: none;
+}
+
+.formSubmitButton:disabled{
+	color: rgb(54, 54, 54);
+	background-color: rgb(77, 77, 77);
+	pointer-events: none;
+}
+
+.formSubmitButton:focus, .formSubmitButton:hover{
+	font-size: 2.2rem;
+}
+
+.formSubmitButton:active{
+	font-size: 2rem;
+	background-color: rgb(255, 191, 73);
+}
