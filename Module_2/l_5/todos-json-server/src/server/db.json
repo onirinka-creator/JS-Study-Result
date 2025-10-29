@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "id": "001",
+      "text": "Pick up dry cleaning",
+      "completed": false
+    },
+    {
+      "id": "1761766334182",
+      "text": "try to do your homework",
+      "completed": false
+    },
+    {
+      "id": "1761767737800",
+      "text": "Pizza",
+      "completed": true
+    },
+    {
+      "id": "1761767792597",
+      "text": "Loader",
+      "completed": false
+    },
+    {
+      "id": "1761768202567",
+      "text": "asdasdasd",
+      "completed": false
+    },
+    {
+      "id": "1761768203690",
+      "text": "aaa",
+      "completed": false
+    }
+  ]
+}
