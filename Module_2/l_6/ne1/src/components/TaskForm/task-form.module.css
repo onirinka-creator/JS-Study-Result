@@ -1,0 +1,107 @@
+.taskForm {
+	background: linear-gradient(145deg, #1a1a1a, #141414);
+	border: 1px solid #262626;
+	border-radius: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+	width: 100%;
+	overflow: hidden;
+}
+
+.visible {
+	opacity: 1;
+	transform: translateY(0);
+	padding: 20px;
+	max-height: 300px;
+}
+
+.hidden {
+	opacity: 0;
+	transform: translateY(-10px);
+	max-height: 0;
+	padding: 0 20px;
+	pointer-events: none;
+	border-color: transparent;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.header h2 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #e5e5e5;
+}
+
+.taskForm textarea {
+	background: #0f0f0f;
+	color: #e5e5e5;
+	border: 1px solid #3d3d3d;
+	padding: 14px;
+	border-radius: 10px;
+	resize: none;
+	min-height: 100px;
+	font-size: 15px;
+	line-height: 1.5;
+	font-family: inherit;
+	transition: all 0.2s;
+}
+
+.taskForm textarea::placeholder {
+	color: #666;
+}
+
+.taskForm textarea:focus {
+	outline: none;
+	border-color: #4caf50;
+	box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+.actions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+}
+
+.actions button {
+	padding: 10px 18px;
+	border-radius: 8px;
+	font-size: 14px;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.2s;
+	border: 1px solid transparent;
+}
+
+.cancelBtn {
+	background: #1f1f1f;
+	color: #888;
+	border-color: #3d3d3d !important;
+}
+
+.cancelBtn:hover {
+	background: #2a2a2a;
+	color: #e5e5e5;
+}
+
+.createBtn {
+	background: linear-gradient(135deg, #4caf50, #45a049);
+	color: white;
+	border: none;
+	box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+}
+
+.createBtn:hover {
+	background: linear-gradient(135deg, #45a049, #3d8b40);
+	box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+	transform: translateY(-1px);
+}
+
+.createBtn:active {
+	transform: translateY(0);
+}

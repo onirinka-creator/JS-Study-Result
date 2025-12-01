@@ -1,0 +1,19 @@
+{
+  "tasks": [
+    {
+      "id": "1734624146144",
+      "text": "Do something nice for someone I care about",
+      "completed": true
+    },
+    {
+      "id": "1734612599497",
+      "text": "Prepare a dish from a foreign culture. Just ship it",
+      "completed": false
+    },
+    {
+      "id": "1764625910945",
+      "text": "This will be a video exploring what life might be like for your average, working-class person in the city of Night City from Cyberpunk 2077. The first portion of the video will be a rundown on where we might live, work, eat, and relax. The second portion (most of it) will be a summary of a livestream where I \"lived\" in Cyberpink 2077 for \"seven days\", which worked out to be 21 hours of real time.\n\nThe focus of the video will mostly be on the monotony of daily living, and the surprising ways in which doing a challenge like this created moments of empathy, nostalgia, frustration, and immersion in a relatively short amount of time.",
+      "completed": false
+    }
+  ]
+}

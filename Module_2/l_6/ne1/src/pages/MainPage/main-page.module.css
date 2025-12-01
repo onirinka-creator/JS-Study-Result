@@ -1,0 +1,133 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 8px;
+}
+
+.title {
+	font-size: 28px;
+	font-weight: 700;
+	color: #e5e5e5;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.title span {
+	font-size: 28px;
+}
+
+.controls {
+	display: flex;
+	gap: 10px;
+	align-items: stretch;
+}
+
+.addBtn {
+	background: linear-gradient(135deg, #4caf50, #45a049);
+	border: none;
+	padding: 12px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	color: white;
+	font-size: 14px;
+	font-weight: 600;
+	transition: all 0.2s;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
+	white-space: nowrap;
+}
+
+.addBtn:hover {
+	background: linear-gradient(135deg, #45a049, #3d8b40);
+	box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
+	transform: translateY(-1px);
+}
+
+.addBtn:active {
+	transform: translateY(0);
+}
+
+.tasksList {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.emptyState {
+	background: linear-gradient(145deg, #1a1a1a, #141414);
+	border-radius: 16px;
+	border: 1px solid #262626;
+	padding: 50px 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.emptyIcon {
+	font-size: 48px;
+	opacity: 0.5;
+}
+
+.emptyState p {
+	color: #666;
+	font-size: 15px;
+}
+
+.errorState {
+	background: linear-gradient(145deg, #1a1a1a, #141414);
+	border-radius: 16px;
+	border: 1px solid rgba(239, 68, 68, 0.3);
+	padding: 40px 20px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.errorIcon {
+	font-size: 48px;
+}
+
+.errorState h3 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #e5e5e5;
+}
+
+.errorState p {
+	color: #888;
+	font-size: 14px;
+}
+
+.retryBtn {
+	margin-top: 8px;
+	background: rgba(239, 68, 68, 0.15);
+	color: #ef4444;
+	border: 1px solid rgba(239, 68, 68, 0.3);
+	padding: 10px 20px;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 500;
+	transition: all 0.2s;
+}
+
+.retryBtn:hover {
+	background: rgba(239, 68, 68, 0.25);
+	border-color: rgba(239, 68, 68, 0.5);
+}

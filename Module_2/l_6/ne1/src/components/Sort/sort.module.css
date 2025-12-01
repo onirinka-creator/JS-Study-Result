@@ -1,0 +1,29 @@
+.sortSelect {
+	background-color: #1a1a1a;
+	border: 1px solid #262626;
+	padding: 12px 14px;
+	border-radius: 10px;
+	color: #e5e5e5;
+	font-size: 14px;
+	cursor: pointer;
+	transition: all 0.2s;
+	min-width: 100px;
+	flex-shrink: 0;
+}
+
+.sortSelect:hover {
+	border-color: #3d3d3d;
+	background-color: #1f1f1f;
+}
+
+.sortSelect:focus {
+	outline: none;
+	border-color: #4caf50;
+	box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.1);
+}
+
+.sortSelect option {
+	background-color: #1a1a1a;
+	color: #e5e5e5;
+	padding: 12px;
+}
