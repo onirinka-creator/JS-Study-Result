@@ -1,0 +1,37 @@
+.userBlock {
+	background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
+	border-radius: 16px;
+	padding: 28px 32px;
+	box-shadow: 
+		0 4px 24px rgba(0, 0, 0, 0.4),
+		inset 0 1px 0 rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	min-width: 320px;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 0 0 20px 0;
+	color: #e0e0e0;
+	letter-spacing: 0.5px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.title::before {
+	content: '';
+	display: inline-block;
+	width: 4px;
+	height: 24px;
+	background: linear-gradient(180deg, #6366f1, #8b5cf6);
+	border-radius: 2px;
+}
+
+.sections {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+

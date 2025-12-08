@@ -1,0 +1,55 @@
+.section {
+	background: rgba(255, 255, 255, 0.03);
+	border-radius: 12px;
+	padding: 16px 20px;
+	border: 1px solid rgba(255, 255, 255, 0.06);
+	transition: background 0.2s ease;
+}
+
+.section:hover {
+	background: rgba(255, 255, 255, 0.05);
+}
+
+.sectionTitle {
+	font-size: 0.75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+	color: #6366f1;
+	margin: 0 0 12px 0;
+}
+
+.infoRow {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.infoRow:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+
+.label {
+	color: #888;
+	font-size: 0.9rem;
+}
+
+.value {
+	color: #fff;
+	font-weight: 500;
+	font-size: 0.95rem;
+}
+
+.value a {
+	color: #6366f1;
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+
+.value a:hover {
+	color: #8b5cf6;
+}
+
