@@ -1,0 +1,33 @@
+.field {
+	background-color: rgb(18, 18, 18);
+	border-radius: 15px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+
+	color: azure;
+	font-size: 50px;
+}
+
+.fieldCell {
+	height: 100px;
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #303030;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.fieldCell:nth-child(1) {
+	border-radius: 15px 0 0 0;
+}
+.fieldCell:nth-child(3) {
+	border-radius: 0 15px 0 0;
+}
+.fieldCell:nth-child(7) {
+	border-radius: 0 0 0 15px;
+}
+.fieldCell:nth-child(9) {
+	border-radius: 0 0 15px 0;
+}

@@ -1,0 +1,21 @@
+.currentUser {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.label {
+	font-size: 0.85rem;
+	color: #888;
+}
+
+.name {
+	font-size: 1rem;
+	font-weight: 600;
+	color: #fff;
+	padding: 6px 14px;
+	background: linear-gradient(135deg, #6366f1, #8b5cf6);
+	border-radius: 20px;
+	box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+}
+
